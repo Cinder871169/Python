@@ -1,8 +1,14 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "D:/Python_Code_PTIT-main"
+    },
+    {
+      "path": "D:/PTIT-Source-main/CodePTIT - PYTHON"
+    }
+  ],
+  "settings": {}
 }
