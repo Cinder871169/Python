@@ -8,9 +8,9 @@ if c > x:
     x = c
 print(x)
 m, n, p = [int(k) for k in input().split()]
-y = a
-if b > y:
-    y = b
-if c > y:
-    y = c
+y = m
+if n > y:
+    y = n
+if p > y:
+    y = p
 print(y)
