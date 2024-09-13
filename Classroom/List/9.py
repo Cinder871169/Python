@@ -5,4 +5,4 @@ def solve(lst, index):
 lst = [list(map(int, s.strip().split())) for s in input().split(",")]
 print("Nhap cot can xoa:")
 n = int(input())
-print(solve(list1, n - 1))
+print(solve(lst, n - 1))
