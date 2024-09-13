@@ -4,6 +4,6 @@ def sum_range(nums, l, r):
     return res
 
 
-nums = [2, 1, 5, 6, 8, 3, 4, 9, 10, 11, 8, 12]
+nums = [int(x) for x in input().split()]
 l, r = [int(x) for x in input().split()]
 print(sum_range(nums, l, r))

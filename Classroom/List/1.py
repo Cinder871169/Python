@@ -11,6 +11,6 @@ def find(nums):
     return a, b
 
 
-nums = [1, 3, 5, 7, 4, 1, 6, 8]
+nums = [int(x) for x in input().split()]
 even, odd = find(nums)
 print(even, odd)

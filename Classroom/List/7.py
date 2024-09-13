@@ -16,5 +16,5 @@ def solve(lst):
     return " ".join(map(str, res))
 
 
-lst = [2, 3, 8, 4, 7, 9, 8, 2, 6, 5, 1, 6, 1, 2, 3, 4, 6, 9, 1, 2]
+lst = [int(x) for x in input().split()]
 print(solve(lst))

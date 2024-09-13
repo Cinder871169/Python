@@ -4,7 +4,5 @@ def solve(mat):
     return [row for _, row in row_sum]
 
 
-matrix1 = [[1, 2, 3], [2, 4, 5], [1, 1, 1]]
-matrix2 = [[1, 2, 3], [-2, 4, -5], [1, -1, 1]]
-print(solve(matrix1))
-print(solve(matrix2))
+matrix = [list(map(int, s.strip().split())) for s in input().split(",")]
+print(solve(matrix))

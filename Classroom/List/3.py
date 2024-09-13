@@ -5,5 +5,5 @@ def reverse(strings):
     return rev
 
 
-strings = ["Red", "Green", "Blue", "White", "Black"]
+strings = [s.strip() for s in input().split()]
 print(reverse(strings))
