@@ -1,4 +1,3 @@
-# ban_hang.py
 import pickle
 from init import BanHang
 

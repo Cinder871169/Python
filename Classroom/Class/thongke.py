@@ -1,4 +1,3 @@
-# thong_ke.py
 import pickle
 
 

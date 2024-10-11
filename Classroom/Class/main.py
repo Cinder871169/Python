@@ -1,4 +1,3 @@
-# main.py
 from mathang import addmh, readmh
 from nhanvien import addnv, readnv
 from banhang import lap_bang_ban_hang, doc_bang_ban_hang
