@@ -23,3 +23,6 @@ def readnv(file_name):
         print("Chưa có nhân viên nào.")
     except Exception as e:
         print("Lỗi khi đọc danh sách nhân viên:", e)
+
+
+# Bui Ngoc Thien - B22DCCN822

@@ -23,3 +23,6 @@ def doc_bang_ban_hang(file_name):
         print("Chưa có dữ liệu bán hàng.")
     except Exception as e:
         print("Lỗi khi đọc danh sách bán hàng:", e)
+
+
+# Bui Ngoc Thien - B22DCCN822

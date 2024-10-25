@@ -70,3 +70,6 @@ def bang_ke(file_ban_hang, file_mat_hang):
             print(f"Mã NV: {ma_nv}, Doanh thu: {dt}")
     except Exception as e:
         print("Lỗi khi lập bảng kê doanh thu:", e)
+
+
+# Bui Ngoc Thien - B22DCCN822

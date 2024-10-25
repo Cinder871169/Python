@@ -20,3 +20,6 @@ class BanHang:
         self.ma_nv = ma_nv
         self.ma_hang = ma_hang
         self.so_luong_ban = so_luong_ban
+
+
+# Bui Ngoc Thien - B22DCCN822
