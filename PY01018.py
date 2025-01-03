@@ -1,9 +1,9 @@
 p = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_."
 while True:
-    inp = input()
-    if inp == "0":
+    x = input()
+    if x == "0":
         break
-    k, s = inp.split()
+    k, s = x.split()
     k = int(k)
     res = ""
     for i in s:

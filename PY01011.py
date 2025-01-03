@@ -1,26 +1,20 @@
-a = []
-b = ["0", "2", "4", "6", "8"]
-
-
-def Try(s):
+def Try(s, b, a):
     x = list(s)
     x.reverse()
     x = int(s + "".join(x))
-    global a
-    a = a + [x]
+    a.append(x)
     if len(s) != 3:
         for i in b:
-            Try(s + i)
+            Try(s + i, b, a)
 
+
+b = ["0", "2", "4", "6", "8"]
+a = []
 
 for i in range(1, 5):
-    Try(b[i])
+    Try(b[i], b, a)
 a.sort()
-for t in range(int(input())):
+for _ in range(int(input())):
     n = int(input())
-    for j in a:
-        if j < n:
-            print(j, end=" ")
-        else:
-            break
-    print()
+    result = [x for x in a if x < n]
+    print(" ".join(map(str, result)))

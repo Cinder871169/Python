@@ -1,6 +1,6 @@
 a, k, n = [int(x) for x in input().split()]
-flag = 0
 b = k - a % k + a
+flag = 0
 for i in range(b, n + 1, k):
     print(i - a, end=" ")
     flag = 1

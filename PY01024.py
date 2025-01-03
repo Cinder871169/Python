@@ -1,20 +1,19 @@
 def check(s):
-    n = int(s)
-    x = 0
-    while n > 0:
-        x += n % 10
-        n = int(n / 10)
-    if x % 10 != 0:
-        return False
-    for i in range(1, len(s)):
-        if abs(int(s[i]) - int(s[i - 1])) != 2:
+    sum = 0
+    n = len(s)
+    for i in s:
+        sum += int(i)
+    for i in range(1, n):
+        if abs(ord(s[i - 1]) - ord(s[i])) != 2:
             return False
+    if sum % 10 != 0:
+        return False
     return True
 
 
 for t in range(int(input())):
     s = input()
-    if check(s) == True:
+    if check(s):
         print("YES")
     else:
         print("NO")

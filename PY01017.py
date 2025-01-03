@@ -1,7 +1,7 @@
 for t in range(int(input())):
     s = input()
-    n = len(s)
     k = 1
+    n = len(s)
     for i in range(1, n):
         if s[i] != s[i - 1]:
             print(k, end="")

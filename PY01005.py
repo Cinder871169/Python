@@ -1,8 +1,11 @@
-n = input()
-s = 0
-for i in n:
-    if i == '4' or i == '7':
-        s += 1
-if s == 4 or s == 7:
+s = input()
+cnt = 0
+for i in s:
+    if i == '4':
+        cnt += 1
+    elif i == '7':
+        cnt += 1
+if cnt == 4 or cnt == 7:
     print("YES")
-else: print("NO")
+else:
+    print("NO")

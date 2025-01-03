@@ -5,7 +5,7 @@ def check(s):
     return True
 
 
-for i in range(int(input())):
+for t in range(int(input())):
     s = input()
     if check(s):
         print("YES")

@@ -1,5 +1,5 @@
-a = input().split()
-if int(a[0]) + int(a[2]) == int(a[4]):
+s = input().split()
+if int(s[0]) + int(s[2]) == int(s[4]):
     print("YES")
 else:
     print("NO")
